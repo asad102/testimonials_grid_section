@@ -3,116 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testimonials grid section</title>
+    <title flex flex-col  gap-1>Testimonials grid section</title flex flex-col  gap-1>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="font-sans font-[15px] ">
-    <section class="testimonials">
-        <div class="container  min-h-screen max-w-[1440px]  mx-auto  flex xl:flex-col flex-row  justify-center items-center p-8">
-            <div class="cards grid xl:grid-cols-4 xl:grid-rows-2 grid-cols-1 grid-rows-1 gap-10 ">
-                <div class="card-one flex flex-col gap-6 xl:col-span-2 col-span-1 bg-Moderateviolet px-10 py-4 rounded-lg">
-                    <div class="heading flex gap-2">
-                        <img class="w-[60px] h-[60px] rounded-full" src="img/image-daniel.jpg" alt="">
-                        <div class="title">
-                            <h1 class="text-[#fff]">Daniel Clifftor</h1>
-                            <span class="text-Lightgray">Varified Buyer</span>
+<body>
+    <main class="font-Barlow text-xs min-h-screen flex md:flex-col flex-row justify-center items-center bg-Lightgrayishblue ">
+            <article class="cards max-w-[1110px]  grid md:grid-cols-4 md:grid-rows-2 grid-cols-1 grid-rows-1 gap-7  md:m-0 m-4 ">
+                <div class="card-one flex flex-col  md:col-span-2 col-span-1 bg-Moderateviolet p-7 rounded-lg">
+                    <div class="heading flex items-center gap-2">
+                        <img class="w-7 h-7 rounded-full" src="img/image-daniel.jpg" alt="">
+                        <div class="title flex flex-col  gap-1 ">
+                            <h1 class="text-White">Daniel Clifford</h1>
+                            <span class="text-Lightgray">Graduate</span>
                         </div>
                     </div>
-                    <div class="quote">
-                        <h1 class="text-md xl:text-2xl text-[#fff]">I Received a job offer mid course and the subjects i learned were current, if not more so, in the company I joined.
-                            I honestly fel I got every penny wothd</h1>
+                    <div class="quote my-4">
+                        <h1 class="font-semibold text-xl text-White">I received a job offer mid-course, and the subjects I learned were
+                            current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.</h1>
                     </div>
                     <div class="body text-Lightgray">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur adipisci explicabo repellat eum fuga
-                            quod eius, delectus culpa sint, molestiae exercitationem fugiat ad ratione nostrum doloribus autem ipsa molestias!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nisi. Odio sed similique vero consequuntur nesciunt.
-                            Vel earum velit consequuntur libero repellendus modi, itaque impedit, facere iste perspiciatis blanditiis
-                            accusantium?
+                        <p class="font-medium text-base leading-4">
+                            “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard
+                            some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I
+                            enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing
+                            the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
                         </p>
                     </div>
                 </div>
-                <div class="card-two flex flex-col gap-6 bg-darkgrayishblue px-10 py-4 rounded-lg">
-                    <div class="heading flex gap-2">
-                        <img class="w-[60px] h-[60px] rounded-full" src="img/image-jonathan.jpg" alt="">
-                        <div class="title">
-                            <h1 class="text-[#fff]">Jonathan Walters</h1>
-                            <span class="text-Lightgray">Varified Buyer</span>
+                <div class="card-two flex flex-col   p-7 bg-Verydarkgrayish rounded-lg">
+                    <div class="heading flex items-center gap-2">
+                        <img class="w-7 h-7 rounded-full" src="img/image-jonathan.jpg" alt="">
+                        <div class="title flex flex-col  gap-1">
+                            <h1 class="text-White">Jonathan Walters</h1>
+                            <span class="text-Lightgray">Verified Graduate</span>
                         </div>
                     </div>
-                    <div class="quote">
-                        <h1 class="text-md xl:text-2xl text-[#fff]">The team was very supportive and kept me motivated</h1>
+                    <div class="quote my-4">
+                        <h1 class="font-semibold text-xl text-White">The team was very supportive and kept me motivated</h1>
                     </div>
                     <div class="body text-Lightgray">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur adipisci explicabo repellat eum fuga
-                            quod eius, delectus culpa sint, molestiae exercitationem fugiat ad ratione nostrum doloribus autem ipsa molestias!
-                        </p>
+                        <p class="font-medium text-base leading-4">“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company.
+                            This was one of the best investments I’ve made in myself. “</p>
                     </div>
                 </div>
-                <div class="card-three xl:row-span-2  flex flex-col gap-6 bg-[#fff] px-10 py-4 rounded-lg shadow-lg">
-                    <div class="heading flex gap-2">
-                        <img class="w-[60px] h-[60px] rounded-full" src="img/image-kira.jpg" alt="">
-                        <div class="title">
-                            <h1  class="text-[#000]">Kira witthibe</h1>
-                            <span  class="text-Lightgray">Varified Buyer</span>
+                <div class="card-three xl:row-span-2  flex flex-col  bg-White p-7 rounded-lg shadow-lg">
+                    <div class="heading flex items-center gap-2">
+                        <img class="w-7 h-7 rounded-full" src="img/image-kira.jpg" alt="">
+                        <div class="title flex flex-col  gap-1">
+                            <h1  class="text-[#000]">Kira Whittle</h1>
+                            <span  class="text-Lightgray">Verified Graduate</span>
                         </div>
                     </div>
-                    <div class="quote">
-                        <h1 class="text-md xl:text-2xl">The team was very supportive and kept me motivated</h1>
+                    <div class="quote my-4">
+                        <h1 class="font-semibold text-xl">Such a life-changing experience. Highly recommended!</h1>
                     </div>
                     <div class="body">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid provident minima,
-                            alias sequi ipsum ea enim debitis quaerat quidem atque dolore, veniam non neque,
-                            dolor natus beatae! Numquam at provident inventore, qui quae, porro laboriosam suscipit enim consequatur, ea
-                            cupiditate ullam placeat corrupti ratione consequuntur officia nihil possimus veritatis tempora fugiat. Nostrum
-                            neque fugiat quo temporibus accusamus dolorum voluptatibus quibusdam nemo laborum impedit totam cupiditate quas
-                            voluptatem consequuntur tenetur suscipit repellendus adipisci, dolores obcaecati animi, repudiandae amet? Facere,
-                            vel. Nihil, porro. Dignissimos ducimus quos,Commodi, itaque! Quia officia vitae deserunt odit
+                        <p class="font-medium text-base leading-4">
+                            “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can
+                            help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say
+                            wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and
+                            I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning
+                            to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as
+                            an example of my developent experience. It certainly helped me land a job as a full-stack developer after receiving
+                            multiple offers. 100% recommend! ”
                         </p>
                     </div>
                 </div>
-                <div class="card-four flex flex-col gap-6 bg-[#fff] px-10 py-4 rounded-lg shadow-lg">
-                    <div class="heading flex gap-2">
-                        <img  class="w-[60px] h-[60px] rounded-full" src="img/image-jeanette.jpg" alt="">
-                        <div class="title">
-                            <h1 class="text-[#000]">jeanette Walters</h1>
-                            <span class="text-Lightgray">Varified Buyer</span>
+                <div class="card-four flex flex-col  bg-White p-7 rounded-lg shadow-lg">
+                    <div class="heading flex items-center gap-2">
+                        <img  class="w-7 h-7 rounded-full" src="img/image-jeanette.jpg" alt="">
+                        <div class="title flex flex-col  gap-1">
+                            <h1 class="text-[#000]">Jeanette Harmon</h1>
+                            <span class="text-Lightgray">Verified Graduate</span>
                         </div>
                     </div>
-                    <div class="quote">
-                        <h1 class="text-md xl:text-2xl">An Overall wonderfull and rewarding experience</h1>
+                    <div class="quote my-4">
+                        <h1 class="font-semibold text-xl">An overall wonderful and rewarding experience</h1>
                     </div>
-                    <div class="body ">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur adipisci explicabo repellat eum fuga
-                            quod eius, delectus culpa sint, molestiae exercitationem fugiat ad ratione nostrum doloribus autem ipsa molestias!
-                        </p>
+                    <div class="body">
+                        <p class="font-medium text-base leading-4">“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ” </p>
                     </div>
                 </div>
-                <div class="card-five xl:col-span-2 flex flex-col gap-6 bg-darkblackishblue px-10 py-4 rounded-lg shadow-lg text-[#fff]">
-                    <div class="heading flex gap-2">
-                        <img class="w-[60px] h-[60px] rounded-full" src="img/image-patrick.jpg" alt="">
-                        <div class="title">
+                <div class="card-five xl:col-span-2 flex flex-col  bg-Verydarkblackish p-7 rounded-lg shadow-lg text-White">
+                    <div class="heading flex items-center gap-2">
+                        <img class="w-7 h-7 rounded-full" src="img/image-patrick.jpg" alt="">
+                        <div class="title flex flex-col  gap-1">
                             <h1>Patric Walters</h1>
-                            <span class="text-Lightgray">Varified Buyer</span>
+                            <span class="text-Lightgray">Verified Graduate</span>
                         </div>
                     </div>
-                    <div class="quote">
-                        <h1 class="text-md xl:text-2xl">
-                            I Received a job offer mid course and the subjects i learned were current, if not more so, in the company I joined.
-                            I honestly fel I got every penny wothd
+                    <div class="quote my-4">
+                        <h1 class="font-semibold text-xl">
+                            Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.
                         </h1>
                     </div>
                     <div class="body text-Lightgray">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequatur adipisci explicabo repellat eum fuga
-                            quod eius, delectus culpa sint, molestiae exercitationem fugiat ad ratione nostrum doloribus autem ipsa molestias!
+                        <p class="font-medium text-base leading-4">
+                            “ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the
+                            confidence necessary to be able to go out in the world and present myself as a capable junior developer. The
+                            standard is above the rest. You will get the personal attention you need from an incredible community of smart and
+                            amazing people. ”
+                        
                         </p>
                     </div>
                 </div>
-
-
-            </div>
-        </div>
-    </section>
+            </article>
+    </main>
 </body>
 </html>
