@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/asad102/testimonials_grid_section/](hhttps://github.com/asad102/testimonials_grid_section/)
+- Solution URL: [https://github.com/asad102/testimonials_grid_section/](https://github.com/asad102/testimonials_grid_section/)
 - Live Site URL: [https://asad102.github.io/testimonials_grid_section/](https://asad102.github.io/testimonials_grid_section/)
 
 ## My process
